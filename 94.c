@@ -9,7 +9,7 @@ void main()
   for(i=0;i<n;i++)
   {
     scanf("%d",&a[i]);
-    if(i==k)
+    if(i+1==k)
     {
       printf("%d",a[i]);
     }
